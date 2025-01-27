@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Memory Game</h1>
+    <button id="restart-button">Restart Game</button>
+  </header>
+
+  <main>
+    <div id="game-container">
+      <!-- 12 Cards: 6 Pairs -->
+      <!-- Each card has a data-card attribute to identify pairs -->
+      <div class="card" data-card="1">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍎</span>
+          </div>
+          <div class="card-back">
+          </div>
+        </div>
+      </div>
+      <div class="card" data-card="2">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍌</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="3">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍒</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="4">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍇</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="5">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍉</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="6">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍓</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <!-- Duplicate the above 6 cards to make 12 cards in total -->
+      <div class="card" data-card="1">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍎</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="2">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍌</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="3">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍒</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="4">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍇</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="5">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍉</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+      <div class="card" data-card="6">
+        <div class="card-inner">
+          <div class="card-front">
+            <span>🍓</span>
+          </div>
+          <div class="card-back"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
