@@ -1,6 +1,6 @@
-# Memory Game Repository
+# Memory Game
 
-Contains **two iterations** of a Memory Game built with HTML, CSS, and JavaScript.
+Contains **two iterations** of a Memory Game built with HTML, CSS, and JavaScript to teach the basics of web development.
 
 Objectives:
 - Twelve cards (6 pairs) that flip on click.
@@ -35,9 +35,8 @@ Objectives:
 
 ## Setup and Usage
 
-1. **Clone the Repo**  
-   ```bash git clone https://github.com/yourusername/memory-game.git```
+- **Clone the Repo**  ```git clone git@github.com:Nikhilnair48/memory-game.git```
 
+- **Change directory**  ```cd memory-game```
 
-2. **Run using any local server**
-    ```npm install -g http-server && http-server``` OR ```python3 -m http.server 8000```
+- **Run using any local server** ```npm install -g http-server && http-server``` OR ```python3 -m http.server 8000```
